@@ -40,6 +40,7 @@ nav{
 }
 .nav-img{
     margin-right:20px;
+    width: 100%;
 }
 .travel{
     color: #FF5400;
@@ -237,6 +238,14 @@ width: 393px;
 height: 52px;
 border: 0px;
 }
+.nature{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.nature img{
+    width: 220px;
+}
 .footer{
 margin-top: 30px;
 background: rgba(19, 19, 24, 0.05);
@@ -310,6 +319,9 @@ padding: 0 120px;
     .social{
         width: 100%;
         padding: 0;
+    }
+    .nature{
+        grid-template-columns: repeat(1,1fr);
     }
     .footermain{
         width: 100%;
